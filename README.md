@@ -21,7 +21,8 @@ Due to limited computational budged, I will be using only the images labeled as 
 **Latent Space Creation** (latent dimension = 16):
 
 The model of the VAE used has been described in the image below:
-(add image)
+[Encoder model architecture](Encoder_model.jpg)
+[Decoder model architecture](Decoder_model.jpg)
 
 Final Latent Space Visualization:
 (add image)
