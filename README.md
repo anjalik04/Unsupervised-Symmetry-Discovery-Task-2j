@@ -29,12 +29,26 @@ Decoder:
 <p align="center">
 <img src = "https://github.com/user-attachments/assets/ccc250bd-7aa9-4689-928b-36007d9c0894" width = "800"/>
 </p>
+
+
 Final Latent Space Visualization:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/99943dcf-64ba-47bb-8af3-35f27a4e75aa" width="45%"/>
-  <img src="https://github.com/user-attachments/assets/805f5999-0a61-4b6e-a6d8-5c63f85b884b" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/f7435b26-a8dd-4f1a-94a9-15389a859af7" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/1acdbcf3-3555-4ff1-b37f-b1078bd1a736" width="40%"/>
 </p>
+
+We can see that the images labeled 1 show a unique pattern in the second image (i.e. visualization of rotated angles). For an image labeled '1', we can see in the below picture: 
+<p align="center">
+  <img src = "https://github.com/user-attachments/assets/9c70f47f-3846-40a0-9633-d63559d5055a" width = "800"/>
+</p>
+
+* The 0 degree rotated version is very similar to the 180 degree rotated version.
+* The 30 degree rotated version is very similar to the 210 degree rotated version.
+* The 60 degree rotated version is very similar to the 240 degree rotated version.
+* And so on.
+  
+Thus, this pattern should reflect in the latent space. And if we look carefully, it does reflect in the above image.
 
 ## Part 2 (Supervised Symmetry Discovery)
 
