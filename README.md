@@ -82,6 +82,8 @@ To achieve this goal, we first need to train an MLP to classify the latent vecto
 
 The architecture for the generators G is the same as the MLP designed in the previous section.
 
+A different approach for closure loss was taken, as stated in this paper: (link: https://arxiv.org/pdf/2301.05638), "Another possible approach is to minimize the out-of-space components of the commutators with respect to the space of generators, after flattening and Gram–Schmidt orthonormalization."
+
 The results of the trained generator model can be seen below: (The visualization follows the format of the plot shown in the paper. The original image is in the centre and the transformation is applied in steps of 3000 to the left and to the right.)
 
 <p align="center">
