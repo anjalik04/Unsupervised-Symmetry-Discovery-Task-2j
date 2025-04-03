@@ -91,3 +91,5 @@ The results of the trained generator model can be seen below: (The visualization
 </p>
 
 We can see that the generator is partially succesful at learning the rotation transformation. More results can be found in the jupyter notebook.
+
+The trained weights for all models are present in the github repository.
